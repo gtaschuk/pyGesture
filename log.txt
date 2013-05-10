@@ -1,0 +1,33 @@
+
+Wed Feb 27 16:32:34 EST 2013
+For next time
+- Debug sans xlib ctrl
+- State machine drawing
+- http://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
+  Nelder Meed Optimization
+- 
+
+
+Wed Mar 20 16:25:00 EDT 2013
+
+Filtering first
+- 
+Dynamic Time warping
+- Method of comparing sequences that might not have the same scale
+- Classical DTW - 
+
+
+Wed Apr 10 15:45:39 EDT 2013
+What have I done?
+- Tuned parameters to increase accuracy
+- Redefined displacement as min point to max point (bounding box)
+rather than first to last point
+- started tracking variable len windows
+- Added the minimum arc len
+- Added error reporting in the debug window
+- Refactored
+-- better track error and 
+-- simplified classification
+-- changed hard coded values into class vars
+- Started writing theory section
+- began working on dynamic dtw
